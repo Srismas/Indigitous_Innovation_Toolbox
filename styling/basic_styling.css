@@ -1,0 +1,87 @@
+/* rem will change the sizing according to device width & stuff */
+:root {
+    font-size: 87.5%; /* default font-size: 16px, but we'll make it 14px */
+}
+
+* {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* ensure the body takes at least the full height of the viewport */
+}
+
+h1 {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: normal;
+
+    font-size: 2.43rem; /* 34px */
+    text-align: center;
+}
+
+/* The following code formats the navigation bar */
+.navbar {
+    width: 100%;
+    height: 6.25rem; /*100px;*/
+    background-color: #A0DBEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.nav_IT_logo {
+    display: block;
+    margin-left: auto;
+}
+
+.nav_link {
+    align-items: right;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F6F6DA
+}
+
+a:any-link {
+    color: #F6F6DA;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 1.625rem;
+}
+
+p {
+    margin: 0 4.5rem;
+}
+
+/* This creates the empty colored box on the bottom */
+footer { 
+    content: '';
+    width: 100%;
+    height: 6.25rem;
+    background-color: #F6F6DA;
+}

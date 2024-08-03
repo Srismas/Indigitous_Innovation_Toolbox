@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.why_innov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.why_innov_description {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+
+.scaled_up_logo {
+    margin: 2.5rem;
+}
+
+#innov_heading {
+    color: #A0DBEE;
+}
+
+#why_innov_heading {
+    color: #8BE1A8;
+    margin: 0;
+}
