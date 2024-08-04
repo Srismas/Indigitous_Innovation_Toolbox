@@ -1,0 +1,58 @@
+.tool_page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.what, .when, .how, .templates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.templates {
+    margin: 1rem;
+}
+
+.subheading {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+p {
+    text-align: left;
+    margin: 0 8.5rem;
+}
+
+.citation {
+    font-weight: bold;
+}
+
+#citation_link {
+    color: black;
+}
+
+/* Individual Tool Page specific code */
+#define_success_heading, #define_success_template_link {
+    color: #EDBA5A;
+    margin-bottom: 0;
+}
+
+#twos_matrix_heading, #twos_matrix_template_link {
+    color: #8BE1A8;
+    margin-bottom: 0;
+}
+
+#ssm_heading, #ssm_template_link {
+    color: #B4A0EE;
+    margin-bottom: 0;
+}
+
+#ice_heading, #ice_template_link {
+    color: #A0DBEE;
+    margin-bottom: 0;
+}
