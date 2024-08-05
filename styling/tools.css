@@ -21,7 +21,8 @@
 .filterDiv {
     float: left;
     background-color: #2196F3;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: black;
     width: 22.5rem;
     height: 22.5rem;
     line-height: 100px;
@@ -62,7 +63,7 @@ p {
 }
 
 #tool_link {
-    color: white;
+    color: black;
     font-size: 1.375rem;
 }
 

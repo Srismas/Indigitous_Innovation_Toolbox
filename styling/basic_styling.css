@@ -7,6 +7,7 @@
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.125rem; /* 21.2px */
 }
 
 body {
@@ -26,7 +27,7 @@ h1 {
     font-weight: bold;
     font-size: normal;
 
-    font-size: 2.43rem; /* 34px */
+    font-size: 2.375rem; /* 38px */
     text-align: center;
 }
 
@@ -97,11 +98,11 @@ footer {
 }
 
 .feedback {
-    font-size: 1.625rem;
     margin:  .3125rem 0;
 }
 
 #feedback_link {
+    font-size: 1.5rem; /* 24px */
     color: black;
 }
 
