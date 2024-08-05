@@ -1,3 +1,58 @@
+.about_page {
+    display: flex;
+    flex-direction: column;
+}
+
+.mission_section, .team_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_descrip_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .625rem;
+    padding: 1rem;
+    border-radius: .3125rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.sponsor_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #green_heading {
     color: #8BE1A8;
+}
+
+#blue_heading {
+    color: #A0DBEE;
+}
+
+#sarah {
+    background-color: #B4A0EE;
+}
+
+#caleb {
+    background-color: #8BE1A8;
+}
+
+#skylar {
+    background-color: #EDBA5A;
 }
