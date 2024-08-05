@@ -103,13 +103,46 @@
                     </h3>
                 </div>
 
-            </div> -->
+            </div>
+        </div> -->
 
+
+        <!-- Control buttons -->
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')" id="all_filters"> Show all</button>
+            <button class="btn" onclick="filterSelection('strategy')" id="strategy"> Strategy</button>
+            <button class="btn" onclick="filterSelection('creative_thinking')" id="creative_thinking"> Creative Thinking</button>
+            <button class="btn" onclick="filterSelection('empathy')" id="empathy"> Empathy</button>
+            <button class="btn" onclick="filterSelection('evaluation')" id="evaluation"> Evaluation</button>
         </div>
+
+        <div class="container">
+            <div class="filterDiv strategy evaluation" id="define_success">
+                <h3><a href="define_success.html" id="tool_link">Define Success</a></h3>
+                <p>Used for planning, brainstorming, or evaluating existing ideas</p>
+            </div> 
+            <div class="filterDiv strategy evaluation creative_thinking" id="twos_matrix">
+                <h3><a href="2x2_matrix.html" id="tool_link">2x2 Matrix</a></h3>
+                <p>Used for many different things(e.g. sorting ideas or evaluating effectiveness)</p>
+            </div>
+            <div class="filterDiv strategy implementation" id="ssm">
+                <h3><a href="ssm.html" id="tool_link">Soft Systems Methodology</a></h3>
+                <p>Used to improve a situation methodically</p>
+            </div>
+            <div class="filterDiv empathy" id="empathy_map">
+                <h3><a href="empathy_map.html" id="tool_link">Empathy Map</a></h3>
+                <p>Used for...</p>
+            </div>
+            <div class="filterDiv strategy" id="ice">
+                <h3><a href="ice.html" id="tool_link">ICE</a></h3>
+                <p>Used to narrow down ideas</p>
+            </div>
+        </div>
+            
     </main>
 
     <footer></footer>
 
-
+    <script src="tools.js"></script>
 </body>
 </html>
