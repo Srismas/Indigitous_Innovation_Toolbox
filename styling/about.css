@@ -37,6 +37,11 @@
     align-items: center;
 }
 
+.paragraphs {
+    text-align: center;
+    max-width: 70rem;
+}
+
 #green_heading {
     color: #8BE1A8;
 }
