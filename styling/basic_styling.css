@@ -77,6 +77,7 @@ a:any-link {
 
 p {
     margin: 0 4.5rem;
+    line-height: 2rem;
 }
 
 /* This creates the feedback colored box on the bottom */

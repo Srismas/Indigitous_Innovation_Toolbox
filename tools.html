@@ -47,13 +47,13 @@
 
         <div class="toolbox">
             <!-- Control buttons -->
-            <div id="myBtnContainer">
+            <aside id="myBtnContainer">
                 <button class="btn active" onclick="filterSelection('all')" id="all_filters"> Show all</button>
                 <button class="btn" onclick="filterSelection('strategy')" id="strategy"> Strategy</button>
                 <button class="btn" onclick="filterSelection('creative_thinking')" id="creative_thinking"> Creative Thinking</button>
                 <button class="btn" onclick="filterSelection('empathy')" id="empathy"> Empathy</button>
                 <button class="btn" onclick="filterSelection('evaluation')" id="evaluation"> Evaluation</button>
-            </div>
+            </aside>
     
             <div class="container">
                 <div class="filterDiv strategy evaluation" id="define_success">
@@ -70,7 +70,9 @@
                 </div>
                 <div class="filterDiv empathy" id="empathy_map">
                     <h3><a href="empathy_map.html" id="tool_link">Empathy Map</a></h3>
-                    <p>Used for understanding your target audience and gaining clarity of what you need to do for them</p>
+                    <!-- <br>
+                    <br> -->
+                    <p id="tool_descrip">Used for understanding your target audience and gaining clarity of what you need to do for them</p>
                 </div>
                 <div class="filterDiv strategy" id="ice">
                     <h3><a href="ice.html" id="tool_link">ICE</a></h3>
