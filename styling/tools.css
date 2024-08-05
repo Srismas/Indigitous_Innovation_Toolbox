@@ -1,3 +1,9 @@
+.toolbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .container {
     overflow: hidden;
     display: flex;
@@ -96,62 +102,3 @@ p {
     color: black;
     opacity: 1;
 }
-
-
-/* old stuff */
-/* .filters_container {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    margin: 0 1rem;
-}
-
-.all_filters {
-    font-size: 1rem;
-    font-family: "Alegreya", serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-size: normal;
-}
-
-.filters {
-    background: #F6F6DA;
-    opacity: .75;
-    margin: .5rem 0;
-    border: none;
-    outline: none;
-    border-radius: .3125rem;
-    cursor: pointer;
-}
-
-.filters.active {
-    opacity: 1;
-}
-
-.tools_container {
-    overflow: hidden;
-    display: flex;
-} */
-
-/* .filter_tools {
-    float: left;
-    max-width: 6.25rem;
-    line-height: 6.25rem;
-    text-align: center;
-    margin: 0.125rem;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    /* display: none; 
-}
-
-button {
-    height: 3.125rem;
-}
-
-/* The "show" class is added to the filtered elements 
-.show {
-    display: block;
-} */
