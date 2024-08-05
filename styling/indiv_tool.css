@@ -52,6 +52,11 @@ p {
     margin-bottom: 0;
 }
 
+#em_heading, #em_template_link {
+    color: #FCAFE2;
+    margin-bottom: 0;
+}
+
 #ice_heading, #ice_template_link {
     color: #A0DBEE;
     margin-bottom: 0;
