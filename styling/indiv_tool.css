@@ -1,7 +1,68 @@
-.tool_page {
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.template_img {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin: auto;
+}
+
+.tool_explanations {
+    max-width: 45rem;
+    max-height: 18.75rem;
+    margin: .5rem 2.5rem;
+    text-align: justify ;
+}
+
+iframe {
+    width: 23rem;
+    height: 17rem;
+    margin: 0 1.125rem;
+}
+
+.image_def_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.what_and_when_section, .what_section, .when_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_section, .examples_section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheading {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* .tool_page {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.tool_template {
+    width: 13.5rem;
+    height: 13.5rem;
 }
 
 .what, .when, .how, .templates {
@@ -15,21 +76,15 @@
     margin: 1rem;
 }
 
-.subheading {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.25rem;
-}
 
 p {
     text-align: left;
     margin: 0 8.5rem;
-}
+} */
 
 .citation {
     font-weight: bold;
+    margin: 2rem;
 }
 
 #citation_link {
@@ -37,12 +92,12 @@ p {
 }
 
 /* Individual Tool Page specific code */
-#define_success_heading, #define_success_template_link {
+#define_success_heading {
     color: #EDBA5A;
     margin-bottom: 0;
 }
 
-#twos_matrix_heading, #twos_matrix_template_link {
+#twos_matrix_heading {
     color: #8BE1A8;
     margin-bottom: 0;
 }
@@ -52,7 +107,7 @@ p {
     margin-bottom: 0;
 }
 
-#em_heading, #em_template_link {
+#em_heading {
     color: #FCAFE2;
     margin-bottom: 0;
 }
